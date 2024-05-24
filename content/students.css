@@ -1,0 +1,21 @@
+
+
+.stu{
+    background: linear-gradient( #00b09b, #96c93d); 
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.hover-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 176, 155, 0.3); /* Adjust the color to match your website's theme */
+}
+
+.centered {
+    text-align: center;
+    margin-top: 20px; /* Adjust the value to your preference */
+  }

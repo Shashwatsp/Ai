@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg nav-color bg-success mx-auto p-2 ">
+          <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img src="./img/svgexport-12.svg" alt="logo" width="190px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item ">
+                      <li class="nav-item">
+                          <a class="nav-link text-light" href="#content">Home</a>
+                        </li>
+  
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="content/about.html">About DCIM</a>
+                      </li>
+                      <!-- Why DCIM dropdown -->
+  
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-light" id="dcim" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Why DCIM
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item " href="content/students.html" target="_blank">For Students</a></li>
+                              <li><a class="dropdown-item " href="content/parents.html" target="_blank">For Parents</a></li>
+                              <li><a class="dropdown-item " href="content/principal.html" target="_blank">For Principal</a></li>
+                              <li><a class="dropdown-item " href="content/government-officials.html" target="_blank">For government officials</a></li>
+                              <li><a class="dropdown-item " href="content/teachers.html" target="_blank">For Teachers</a></li>
+                            </ul>
+  
+                               <!-- Resources -->
+  
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle text-light" id="resources" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Resources
+                              </a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item " href="content/DCIM-Curriculum.html" target="_blank">DCIM Curriculum</a></li>
+                                  <li><a class="dropdown-item t" href="content/Modules.html" target="_blank">Interactive Modules</a></li>
+                                  <li><a class="dropdown-item " href="content/Webinars.html" target="_blank">Webinars and Workshops
+                                  </a></li>
+                               </ul>
+   
+                               <!-- Comunity & Support dropdown -->
+  
+                               <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle text-light" id="Comunity" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Comunity & Support
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item " href="content/Forum.html" target="_blank">Forum</a></li>
+                                      <li><a class="dropdown-item " href="./content/Testimonials.html" target="_blank">Testimonials
+                                      </a></li>
+                                      </ul>
+  
+                              <!-- Advocacy & Outreach dropdoun -->
+  
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-light" id="Outreach" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Advocacy & Outreach
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item " href="content/Advocate.html" target="_blank">How to Advocate for DCIM</a></li>
+                        <li><a class="dropdown-item " href="content/Collaborations.html" target="_blank">Collaborations and Partnerships</a></li>
+                        </ul>
+                        
+                        <!-- FAQs -->
+  
+                        <li class="nav-item">
+                          <a class="nav-link text-light" id="FAQs" href="#">FAQs</a>
+                        </li>
+                         
+                           <!-- contact us -->
+  
+                        <li class="nav-item ">
+                          <a class="nav-link text-light" id="contact" href="#">Contact Us</a>
+                        </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+     </header>
+     <div class="wrapper" style=" background: linear-gradient( #00b09b, #96c93d);">
+     <!-- banner images -->
+
+     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/bghome.png" class="d-block w-100" alt="..." style="height: 550px; object-fit: cover;overflow: hidden;">
+        </div>
+        </div>
+      </div>
+    
+    
+      <!--Home-section-content  -->
+      <div class="d-flex justify-content-center align-items-center vh-95  ">
+        <div class="container mt-5">
+            <h4 class="card-title text-center display-4 " style="font-size: 3rem; font: bolder; padding: 2rem;">Digital Citizenship & Internet Maturity (DCIM)</h4>
+            <p class="card-text text-center lead text-light" style="font-size: 1.5rem; margin-bottom: 1rem;"><span>"</span>The most important subject
+                In today's digital era, where the internet plays a pivotal role in every aspect of our lives, understanding how to navigate this vast virtual landscape responsibly has become crucial.
+                Digital Citizenship & Internet Maturity (DCIM) stands out as the most important subject for students, addressing the critical challenges of overuse, risky use, and misuse of the internet. By equipping students with the necessary skills and knowledge, DCIM ensures they can harness the power of the internet safely and effectively, laying the foundation for a healthy digital future.
+                It is essential to include DCIM as a subject in schools, empowering students to become mature, responsible, and ethical digital citizens.
+           <span>"</span> </p>
+        </div>
+    </div>
+    
+    
+      <!-- main content -->
+
+       <div class="d-flex justify-content-center align-items-center vh-100  ">
+        <div class="container mt-5 ">
+            <h4 class="card-title text-center display-4 " style="font-size: 3rem; font: bolder; padding: 1.5rem;">Why Digital Citizenship & Internet Maturity (DCIM) is the Pivotal Subject of the 21st Century</h4>
+            <p class="card-text text-center lead text-light" style="font-size: 1.5rem;"><span>"</span>In today's world, where education and technology are intimately intertwined, 'Digital Citizenship & Internet Maturity' stands out as the fundamental subject for school students, teachers, parents, principals, and even governmental bodies. As we navigate the vast digital landscape, understanding how to use the internet responsibly and effectively is no longer optional—it's essential. "
+            </p>
+        </div>
+    </div>
+    
+
+    <!-- card-section -->
+    <div class="main">
+      <ul class="cards">
+        <li class="cards_item">
+          
+          <div class="card">
+            <div class="card_image"><img src="./img/students.jpeg"></div>
+            <div class="card_content">
+              <h2 class="card_title"> For Students</h2>
+              <p class="card_text" style="margin-top: 2.7rem;">Why Digital Citizenship & Internet Maturity Matters to students
+                Stay Safe Online: Learn how to protect yourself from cyberbullying, scams, and online predators.
+                Be Informed: Understand the impact of your digital footprint and how your online actions can affect your future.
+                Empower Yourself: Gain the skills to make the most of the internet for learning, creativity, and connecting with others.
+           </p>
+             
+            </div>
+          </div>
+        </li>
+
+
+        <!-- card2 -->
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="./img/Parents.jpeg"></div>
+            <div class="card_content">
+              <h2 class="card_title">For Parents</h2>
+              <p class="card_text">Why Parents Should Prioritize Digital Citizenship & Internet Maturity for Your Children
+                Protect Your Children: Equip them with the knowledge to navigate the digital world safely and responsibly.
+                Build Trust: Foster open communication about online experiences and create a supportive environment for discussing internet issues.
+                Future-Proof Their Education: Ensure your children are prepared for the digital demands of the modern world, both academically and professionally.</p>
+              
+            </div>
+          </div>
+        </li>
+         <!-- card3 -->
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="./img/Teacher.jpeg"></div>
+            <div class="card_content">
+              <h2 class="card_title"> For Teachers</h2>
+              <p class="card_text">Why Teaching Digital Citizenship & Internet Maturity is Essential
+                Prepare Students for the Future: Help students develop critical thinking and responsible online behavior, skills that are essential for their future careers and personal lives.
+                Enhance Learning: Integrate digital tools effectively in your teaching, making learning more engaging and relevant.
+                Create a Positive Classroom Environment: Teach students to respect themselves and others online, reducing instances of cyberbullying and digital conflict.
+           
+            
+           </p>
+              
+            </div>
+          </div>
+        </li>
+
+         <!-- card4 -->
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="./img/principal.jpg"></div>
+            <div class="card_content">
+              <h2 class="card_title">For Principals</h2>
+              <p class="card_text">Why Digital Citizenship & Internet Maturity Should Be a School Priority
+                Lead by Example: Position your school as a leader in digital education, fostering a culture of responsibility and respect.
+                Support Your Staff: Provide teachers with the resources and training they need to effectively teach digital citizenship.
+                Engage the Community: Create a collaborative effort among students, parents, and staff to promote a safe and supportive digital environment.
+           </p>
+             
+            </div>
+          </div>
+        </li>
+
+         <!-- card5 -->
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image"><img src="./img/gov.jpg"></div>
+            <div class="card_content">
+              <h2 class="card_title"> For Government</h2>
+              <p class="card_text"> Why Promoting Digital Citizenship & Internet Maturity is Vital for Society
+                National Security: Ensure that citizens are educated on cybersecurity, reducing the risk of cyber threats on a larger scale.
+                Economic Growth: Equip the future workforce with the digital skills needed to thrive in a rapidly evolving job market.
+                Social Responsibility: Foster a culture of responsible internet use, promoting positive online communities and reducing harmful behaviors.
+           </p>
+             
+            </div>
+          </div>
+        </li>
+    
+      </ul>
+    </div>
+    
+   
+<!-- mission card -->
+
+<section style="height: 80vh; ">
+<!-- Mission -->
+<div class="card mb-3" style="max-width: 800px; height: fit-content ; margin: 0 auto; margin-top: 8rem; object-fit: contain;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./img/students.jpeg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h3 class="card-title" style="text-align: center; font-family: mulish;">Our Mission</h3>
+        <p class="card-text" style="font-size: 1.2rem; text-align: center; font-family: mulish;"> In today's digital age, the internet plays a pivotal role in our daily lives. It's essential for students, parents, teachers, principals, and government officials to understand and navigate this space responsibly. Our mission is to promote 'Digital Citizenship & Internet Maturity' as the most crucial subject in the 21st-century school education system.
+        </p>
+        <div class="mx-5">
+          <a href="/"><button type="button" class="btn btn-outline-success mx-5 ">Know More</button></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+         
+
+   <!-- footer section -->
+   <footer class="bg-dark text-white py-5 vh-50" style="margin-top: 14rem;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>About Us</h3>
+                <ul class="list-unstyled">
+                    <li><a href="./index.html" class="text-white">Know About Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled">
+                    <li><a href="./index.html" class="text-white">Home</a></li>
+                    <li><a href="./content/about.html" class="text-white">About DCIM</a></li>
+                    <li><a href="#dcim" class="text-white">Why DCIM</a></li>
+                    <li><a href="#resources" class="text-white">Resources</a></li>
+                    <li><a href="#Comunity" class="text-white">Community & Support</a></li>
+                    <li><a href="#Outreach" class="text-white">Advocacy & Outreach</a></li>
+                    <li><a href="#FAQs" class="text-white">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Follow Us</h3>
+                <ul class="list-unstyled d-flex">
+                    <li class="me-3"><a href="https://www.facebook.com/DigitalCitizenshipInternetMaturity/" class="text-white"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="me-3"><a href="https://x.com/iMature_in" class="text-white"><i class="fab fa-twitter"></i></a></li>
+                    <li class="me-3"><a href="https://www.youtube.com/channel/UC6jLx14bfIF08Xr7ullSPig" class="text-white"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/imature-in/" class="text-white"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    </div>
+   
+ 
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
